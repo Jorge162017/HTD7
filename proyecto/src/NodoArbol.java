@@ -3,8 +3,8 @@
  * Nodo de un Arbol Binario
  */
 public class NodoArbol <K, T> {
-    public T _value;
-    public K _key;
+    public T Value;
+    public K Key;
     public NodoArbol<K, T> hijoIzquierdo;
     public NodoArbol<K, T> hijoDerecho;
 
@@ -14,8 +14,8 @@ public class NodoArbol <K, T> {
     }
 
     public NodoArbol(K key, T value) {
-        _key = key;
-        _value = value;
+        Key = key;
+        Value = value;
         hijoIzquierdo = null;
         hijoDerecho = null;
     }
